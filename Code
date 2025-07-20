@@ -1,0 +1,22 @@
+/recurring-date-picker
+├── components
+│   ├── RecurrenceSelector.tsx
+│   ├── CustomRecurrenceInput.tsx
+│   ├── DaySelector.tsx
+│   ├── PatternSelector.tsx
+│   ├── DateRangePicker.tsx
+│   ├── CalendarPreview.tsx
+├── hooks
+│   └── useRecurringDates.ts
+├── store
+│   └── recurrenceStore.ts (Zustand)
+├── pages
+│   └── index.tsx
+├── tests
+│   ├── useRecurringDates.test.ts
+│   ├── RecurrenceSelector.test.tsx
+│   └── Integration.test.tsx
+├── styles
+│   └── globals.css
+├── tailwind.config.js
+└── next.config.js
